@@ -33,4 +33,5 @@
 #   sysdm.cpl  >>  Erweitert   >>   Leistung  >>  Einstellungen  -> (x) Für optimale Leistung anpassen
 #   Windows + I  >>  Erleichterte Bedienung  >>  Anzeige  ->  Transparenz in Windows anzeigen (aus)
 #   Windows + I  >>  Personalisierung  >>  Farbenn  ->  Tranzparenzeffekte (aus) + Farben auf Dunkel stellen
+#   Windows + E  >>  Ansicht  >> Optionen  ->  /austoben (
  
