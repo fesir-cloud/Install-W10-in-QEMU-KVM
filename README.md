@@ -42,27 +42,25 @@
 
 #   6.  services.msc  //Hier könne "überflüssige services auf MANUAL gestellt werden"/"niemals deaktivieren, fals doch wichtiger Systemprozess"  Folgende Liste kann bedenkenlos manualisiert werden:
     
-    Connected User Experiences and Telemetry (To turn off Telemetry and Data Collection) (Check this and this)
+    Connected User Experiences and Telemetry 
     Diagnostic Policy Service
-    Diagnostic Tracking Service (To turn off Telemetry and Data Collection)
-    Distributed Link Tracking Client (If your computer is not connected to any network)
-    dmwappushsvc (To turn off Telemetry and Data Collection)
-    Downloaded Maps Manager (If you don't use Maps app)
-    IP Helper (If you don't use IPv6 connection)
+    Diagnostic Tracking Service
+    dmwappushsvc 
+    Downloaded Maps Manager 
+    IP Helper 
     Program Compatibility Assistant Service
-    Print Spooler (If you don't have a printer)
-    Remote Registry (You can set it to DISABLED for Security purposes)
-    Secondary Logon
-    Security Center (Check this)
-    TCP/IP NetBIOS Helper (If you are not in a workgroup network)
-    Touch Keyboard and Handwriting Panel Service (If you don't want to use touch keyboard and handwriting features)
-    Windows Defender Service (If you don't use Windows Defender program)
+    Remote Registry
+    Security Center
+    TCP/IP NetBIOS Helper
+    Touch Keyboard and Handwriting Panel Service
+    Windows Defender Service
     Windows Error Reporting Service
-    Windows Image Acquisition (WIA) (If you don't have a scanner)
-    Windows Search (If you don't use Windows Search feature frequently) (Check this)
+    Windows Search
 #
 
-#   
+#   7.  regedit  >>  Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+#   8.  regedit  >>  Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 
     Nützliche shellcommandos:
     
@@ -76,7 +74,15 @@
     shell:Device Metadata Store
     shell:Fonts
    
-#   
+   
+   
+   
+   
+   
+   
+   
+   
+#  Zum Schluss noch ein cheatsheet 
 
     Nützliche .msc & .cpl & .exe
     
