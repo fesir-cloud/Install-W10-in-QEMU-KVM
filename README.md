@@ -1,4 +1,4 @@
-# Install-W10-in-QEMU-KVM
+# Win10 kleinkriegen
 
 #   1.  Schreibe folgende Eigenschaften in die Registry-Datenbank:
 #   (https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)  
