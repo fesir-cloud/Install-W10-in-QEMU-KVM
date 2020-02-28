@@ -58,11 +58,20 @@
     Windows Search
 #
 
-#   7.  regedit  >>  Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
-
-#   8.  regedit  >>  Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-
-    Nützliche shellcommandos:
+#   7. Autostart aufräumen 
+    regedit  >>  Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+    regedit  >>  Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+ 
+#   8. Vorinstallierten Müll entfernen:
+    Power-Shell:
+    Alle Installieretn Packages anyeigen
+    get-AppxPackage| Select Name, PackageFullName
+    Mit folgendem Power-SHell Befehelf findet man z.B. die PackageFullName von Edge
+    get-AppxPackage| Select Name, PackageFullName|select-string "edge"
+ 
+ 
+ 
+ # Nützliche shellcommandos:
     
     shell:common administrative tools
     shell:printersfolder
