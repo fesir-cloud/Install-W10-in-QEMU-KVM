@@ -73,7 +73,8 @@
     
     Entfernen:
     Get-AppxPackage PackageFullName | Remove-AppxPackage
- 
+       bzw.
+    get-AppxPackage|select-string Weather|remove-appxpackage
  
  
  # Nützliche shellcommandos:
