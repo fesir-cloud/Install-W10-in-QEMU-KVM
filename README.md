@@ -106,3 +106,10 @@
     mstsc.msc
     gpedit.msc
     regedit
+    sfc /Scannow
+    slui
+    eventvwr
+    service
+    netplwiz
+    compmgmt.msc
+    shutdown /i
