@@ -30,6 +30,10 @@
     [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
     "WaitToKillServiceTimeout"="2000"
     
+    
+    [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+    "NoAutoUpdatedword"="1" 
+    
 #   2.  sysdm.cpl  >>  Erweitert   >>   Leistung  >>  Einstellungen  -> (x) Für optimale Leistung anpassen
 
 #   3.  Windows + I  >>  Erleichterte Bedienung  >>  Anzeige  ->  Transparenz in Windows anzeigen (aus)
