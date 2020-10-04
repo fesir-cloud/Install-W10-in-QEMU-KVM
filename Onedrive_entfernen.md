@@ -27,7 +27,11 @@ Drücken Sie gleichzeitig auf die Tasten
     [Windows] und [R], 
 sodass sich der Befehl "Ausführen" öffnet.
 
-Geben Sie hier "gpedit.msc" ein und bestätigt Sie mit "OK". Anschließend startet der Editor für lokale Gruppenrichtlinien.
+Geben Sie hier 
+
+    "gpedit.msc" 
+    
+ein und bestätigt Sie mit "OK". Anschließend startet der Editor für lokale Gruppenrichtlinien.
 
 Navigieren Sie links nun zum folgenden Pfad: Computerkonfiguration, Administrative Vorlagen, Windows-Komponenten, OneDrive.
 
@@ -39,11 +43,17 @@ Schließen Sie das Fenster und drücken Sie gleichzeitig auf die Tasten [Windows
 
 Unten links im Bild erscheint ein Kontextmenü. Wählen Sie hier die Option "Eingabeaufforderung (Administrator)".
 
-Geben Sie hier den Befehl "taskkill /f /im OneDrive.exe" ein und bestätigen Sie ihn mit der "Enter"-Taste.
+Geben Sie hier den Befehl 
+
+    "taskkill /f /im OneDrive.exe" 
+    
+ein und bestätigen Sie ihn mit der "Enter"-Taste.
 
 Geben Sie anschließend auch den zweiten Befehl ein. Je nach 32-Bit oder 64-Bit System benötigen Sie den passenden Befehl.
 
-64-Bit: %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+64-Bit: 
+
+    %SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
 
 32-Bit: %SystemRoot%\System32\OneDriveSetup.exe /uninstall
 
