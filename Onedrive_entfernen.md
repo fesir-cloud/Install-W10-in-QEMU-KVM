@@ -3,11 +3,17 @@ Drücken Sie gleichzeitig auf die Tasten [Windows] und [R], sodass sich der Befe
 
 Geben Sie hier "regedit" ein und bestätigen Sie mit "OK". Anschließend startet der Registrierungs-Editor.
 
-Navigieren Sie links zum folgenden Pfad: HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
+Navigieren Sie links zum folgenden Pfad: 
 
-Klicken Sie nun auf der rechten Seite doppelt auf den Wert "System.IsPinnedToNameSpaceTree".
+    HKEY_CLASSES_ROOT\CLSID\{018D5C66-4533-4307-9B53-224DE2ED1FE6}
 
-Ändern Sie dort den Wert von 1 auf 0 und schließen Sie das Fenster mit dem Button "OK".
+Klicken Sie nun auf der rechten Seite doppelt auf den Wert 
+
+    "System.IsPinnedToNameSpaceTree".
+
+Ändern Sie dort den Wert von 1 auf 0 und schließen Sie das Fenster mit dem Button 
+
+    "OK".
 
 Somit ist OneDrive im Explorer ausgeblendet. Im nächsten Schritt können Sie die Software zusätzlich deinstallieren.
 
@@ -16,7 +22,10 @@ Somit ist OneDrive im Explorer ausgeblendet. Im nächsten Schritt können Sie di
 
 Hinweis: Die folgende Anleitung lässt sich leider nur mit der Pro-Version von Windows 10 durchführen. Nutzen Sie die Home-Version, können Sie lediglich den Start von OneDrive deaktivieren.
 
-Drücken Sie gleichzeitig auf die Tasten [Windows] und [R], sodass sich der Befehl "Ausführen" öffnet.
+Drücken Sie gleichzeitig auf die Tasten 
+
+    [Windows] und [R], 
+sodass sich der Befehl "Ausführen" öffnet.
 
 Geben Sie hier "gpedit.msc" ein und bestätigt Sie mit "OK". Anschließend startet der Editor für lokale Gruppenrichtlinien.
 
