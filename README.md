@@ -2,8 +2,13 @@
 
 #   1.  Schreibe folgende Schlüssel in die Datenbank:
 #   (https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)  
+
+printf "▼▲" tee blue.reg
+
+
     
-    
+    > ;blue.reg - c:/users/<user>/w10-setup/blue.reg
+    -------------------------------------------------------------------------------    
     Windows Registry Editor Version 5.00
 
     [HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
@@ -16,29 +21,40 @@
     
     [HKEY_CURRENT_USER\Control Panel\Desktop]
     "AutoEndTasks"="1"
-;↑ beim Herunterfahren Prozesse ohne Rückfrage beenden
+;↑ beim Herunterfahren nicht reagierende Prozesse ohne Rückfrage beenden
+
     "HungAppTimeout"="1000"
+;↑ Zeit in ms die auf nicht geschlossene Apps beim inititalisieren eines Neustarts, Herunterfahrens oder Abmeldens gewartet wird, bevor diese als nicht reagierende Prozesse behandelt werden (default:5000)
     
     "MenuShowDelay"="8"
+;↑ Verzögerung in Millisekunden beim Aufklappen von Untermenüs in Start-&Kontextmenu. Gültige Werte liegen zwischen 1 und 4000 (default:400)
     
     "WaitToKillAppTimeout"="2000"
+;↑ Prozessen zugestandene Reaktionszeit in ms bis ein Prozess nach initialisieren des Shutdown-Prozesses als nicht reagierend erkannt wird
     
     "LowLevelHooksTimeout"="1000"
-
+;↑
+    
     [HKEY_CURRENT_USER\Control Panel\Mouse]
     "MouseHoverTime"="8"
-
+;
+    
     [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
     "NoLowDiskSpaceChecks"=dword:00000001
+;   
     
     "LinkResolveIgnoreLinkInfo"=dword:00000001
+;  
     
     "NoResolveSearch"=dword:00000001
+; 
     
     "NoResolveTrack"=dword:00000001
+;
     
     "NoInternetOpenWith"=dword:00000001
-
+; unterbindet Internetsuche bei unbekannten Dateiendungen
+    
     [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
     "WaitToKillServiceTimeout"="2000"
     
@@ -47,7 +63,7 @@
     "NoAutoUpdatedword"="1" 
     
 
-
+    -------------------------------------------------------------------------------    
 
 
 #   2.  sysdm.cpl  >>  Erweitert   >>   Leistung  >>  Einstellungen  -> (x) Für optimale Leistung anpassen
