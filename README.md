@@ -8,7 +8,7 @@
 
     [HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
     @="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
-;↑ erweitert Courser-Kontexmenu um |<ins>In Ordner kokieren...</ins>|-Schaltfläche
+;↑ erweitert Courser-Kontexmenu um |<ins>In Ordner kopieren...</ins>|-Schaltfläche
 
     [HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
     @="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
@@ -16,7 +16,7 @@
     
     [HKEY_CURRENT_USER\Control Panel\Desktop]
     "AutoEndTasks"="1"
-
+;↑ beim Herunterfahren Prozesse ohne Rückfrage beenden
     "HungAppTimeout"="1000"
     
     "MenuShowDelay"="8"
