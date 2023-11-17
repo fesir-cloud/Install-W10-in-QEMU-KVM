@@ -1,15 +1,19 @@
-# Win10 kleinkriegen
+# Win10 kleinkriegen und entnerven...
 
-#   1.  Schreibe folgende Eigenschaften in die Registry-Datenbank:
+#   1.  Schreibe folgende Schlüssel in die Datenbank:
 #   (https://www.askvg.com/collection-of-registry-tweaks-for-windows-7/)  
+    
+    
     Windows Registry Editor Version 5.00
 
     [HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
     @="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+    ;↑ erweitert Courser-Kontexmenu um |<ins>In Ordner kokieren...</ins>|-Schaltfläche
 
     [HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
     @="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
-
+    ;↑ erweitert Courser-Kontexmenu um |<ins>In Ordner verschieben...</ins>|-Schaltfläche
+    
     [HKEY_CURRENT_USER\Control Panel\Desktop]
     "AutoEndTasks"="1"
     "HungAppTimeout"="1000"
