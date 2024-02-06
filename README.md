@@ -62,9 +62,28 @@ printf "▼▲" tee blue.reg
     [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
     "NoAutoUpdatedword"="1" 
     
+Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
 
-    -------------------------------------------------------------------------------    
+Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
 
+ If the following branch does not exist, you need to create it.
+
+HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers
+
+Alternately, use the following REG file to create the key and the (default) value data automatically.
+
+Copy the following lines to Notepad, and save the file with .REG extension ("new.reg"). Double-click the file to apply the settings to the registry.
+
+Windows Registry Editor Version 5.00
+
+ 
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\New]
+
+@="{D969A300-E7FF-11d0-A93B-00A0C90F2719}"
+
+Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
+Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
 
 #   2.  sysdm.cpl  >>  Erweitert   >>   Leistung  >>  Einstellungen  -> (x) Für optimale Leistung anpassen
 
