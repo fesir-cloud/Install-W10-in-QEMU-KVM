@@ -82,7 +82,7 @@ Windows Registry Editor Version 5.00
 
 @="{D969A300-E7FF-11d0-A93B-00A0C90F2719}"
 
-Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
+Hier noch ein hilrreiches regeted aus dem web  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
 Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answers.microsoft.com/en-us/windows/forum/all/how-do-i-restore-new-folder-to-context-menu/b09e4e44-a95a-4bb8-a93b-a4d8bf6d3984 )
 
 #   2.  sysdm.cpl  >>  Erweitert   >>   Leistung  >>  Einstellungen  -> (x) Für optimale Leistung anpassen
