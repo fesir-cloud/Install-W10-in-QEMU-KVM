@@ -130,6 +130,8 @@ Hier noch ein hilrreiches regeted aus dem weg  credit to xptr007 ( https://answe
        bzw.
     get-AppxPackage|select-string Weather|remove-appxpackage
  
+
+HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer
  
  # Nützliche shellcommandos:
     
